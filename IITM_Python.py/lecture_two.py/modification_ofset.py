@@ -1,0 +1,16 @@
+numbers={1,2}
+numbers.add(4)
+print(numbers)
+print(len(numbers))
+numbers.add(1)
+print(numbers)
+print(len(numbers))
+numbers.add(5)
+print(numbers)
+print(len(numbers))
+magic_number={8,20,28,50,82}
+numbers.update(magic_number)
+print(numbers)
+numbers.pop()
+numbers.pop()
+print(numbers)

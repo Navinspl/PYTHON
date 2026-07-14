@@ -1,0 +1,7 @@
+tuple=(20,1254,124,1269,'ram','shyam')
+print(type(tuple))
+print(tuple[0])
+print(tuple[1])
+print(tuple[2])
+print(tuple[3])
+print(tuple[4])
