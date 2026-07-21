@@ -1,12 +1,12 @@
-# n = int(input("Entre any number:"))
+n = int(input("Entre any number:"))
 
-# # for i in range(0,n):
-# #     print(" "*(n-i),"*"*(2*i+1))
+for i in range(1,n+1):
+    print(" "*(n-i),"*"*(2*i-1))
 
-# # reverse pyramid
+# reverse pyramid
 
-# for i in range(n,-1,-1):
-#     print(" "*(n-i),"*"*(2*i+1))
+for i in range(n,0,-1):
+    print(" "*(n-i),"*"*(2*i-1))
 
 # # factorial
 # fact=1
@@ -63,14 +63,14 @@
 #         print(i)
    
 
-for i in range(1,11):
-    n=2
-    print(f"{n}*{i} = {n*i}")
+# for i in range(1,11):
+#     n=2
+#     print(f"{n}*{i} = {n*i}")
  
 for i in range(1,11):
-    n1=3
-    print(f"{n}*{i} = {n*i}")
+    n1,n2,n=3,4,2
+    print(f"{n}*{i} = {n*i} ,{n1}*{i} = {n1*i},{n2}*{i} = {n2*i}")
  
-for i in range(1,11):
-    n2=4
-    print(f"{n}*{i} = {n*i}")
+# for i in range(1,11):
+#     n2=4
+#     print(f"{n}*{i} = {n*i}")
